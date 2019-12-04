@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: open sans;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* top row */
+.top-row {
+  background: #0081c5;
+  padding: 5px 0;
+}
+.currency-select {
+  text-align: left;
+}
+.top-links ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-align: right;
+}
+.top-row .dropdown-toggle {
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.top-links .dropdown-toggle {
+  padding: 0;
+}
+.top-links ul li {
+  padding: 0 5px;
+}
+.top-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Second row */
+.brand h2 a {
+  color: #0081c5;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-style: italic;
+}
+.brand h2 a span {
+  color: green;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn-green {
+  background: green !important;
+  color: #fff;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+
+/* Banner */
+.banner {
+  position: relative;
+}
+.banner .owl-prev {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  font-size: 30px !important;
+  color: #555 !important;
+}
+.banner .owl-next {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  font-size: 30px !important;
+  color: #555 !important;
+}
+
+/* Featured products */
+.section-title h3 {
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #555;
+}
+.box {
+  border: 1px solid #ccc;
+}
+.box .box-body .box-title {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.box .box-body .box-title a {
+  text-decoration: none;
+}
+.box .box-body .box-text, .price {
+  color: #555;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.box .box-body del {
+  color: #b3b3b3;
+}
+.box .box-body .tax {
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.box-footer {
+  background: #ccc;
+  padding: 7px 0;
+}
+.box-footer a {
+  text-decoration: none;
+  color: #888;
+}
+
+/* Clients */
+.clients .owl-prev {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  font-size: 30px !important;
+  color: #555 !important;
+}
+.clients .owl-next {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  font-size: 30px !important;
+  color: #555 !important;
+}
+
+/* Footer */
+footer {
+  background: #0081c5;
+  color: #fff;
+  padding: 10px 0;
+}
+footer .footer-box .title {
+  font-weight: 700;
+  font-size: 14px;
+}
+footer .footer-box ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ccc;
+  font-weight: 400;
+  font-size: 14px;
+}
+hr {
+  border-color: #fff;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/* Desktop Top Row View */
+.desktop-top-row {
+  background: #0081c5;
+  color: #fff;
+  padding: 7px 0;
+}
+.desktop-top-row .dropdown-toggle,strong {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+}
+.desktop-top-row .top-links ul {
+  justify-content: flex-end;
+}
+.desktop-top-row .top-links ul li a {
+  font-weight: 400;
+  font-size: 16px;
+}
+.desktop-top-row .top-links ul li {
+  font-weight: 400;
+  font-size: 16px;
+}
+
